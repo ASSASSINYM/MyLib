@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65DB560525BACCE9007BDCC8 /* StaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DB560425BACCE9007BDCC8 /* StaticLib.m */; };
-		65DB560625BACCE9007BDCC8 /* StaticLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65DB560325BACCE9007BDCC8 /* StaticLib.h */; };
+		65DB561325BACDF8007BDCC8 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DB561225BACDF7007BDCC8 /* NSString+Hash.m */; };
+		65DB561725BACE7B007BDCC8 /* NSString+Hash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65DB561125BACDF7007BDCC8 /* NSString+Hash.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				65DB560625BACCE9007BDCC8 /* StaticLib.h in CopyFiles */,
+				65DB561725BACE7B007BDCC8 /* NSString+Hash.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		65DB560025BACCE9007BDCC8 /* libStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		65DB560325BACCE9007BDCC8 /* StaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLib.h; sourceTree = "<group>"; };
-		65DB560425BACCE9007BDCC8 /* StaticLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLib.m; sourceTree = "<group>"; };
+		65DB561125BACDF7007BDCC8 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		65DB561225BACDF7007BDCC8 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		65DB561925BAD14A007BDCC8 /* Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +61,9 @@
 		65DB560225BACCE9007BDCC8 /* StaticLib */ = {
 			isa = PBXGroup;
 			children = (
-				65DB560325BACCE9007BDCC8 /* StaticLib.h */,
-				65DB560425BACCE9007BDCC8 /* StaticLib.m */,
+				65DB561925BAD14A007BDCC8 /* Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf */,
+				65DB561125BACDF7007BDCC8 /* NSString+Hash.h */,
+				65DB561225BACDF7007BDCC8 /* NSString+Hash.m */,
 			);
 			path = StaticLib;
 			sourceTree = "<group>";
@@ -122,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DB560525BACCE9007BDCC8 /* StaticLib.m in Sources */,
+				65DB561325BACDF8007BDCC8 /* NSString+Hash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
