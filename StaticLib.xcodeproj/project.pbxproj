@@ -28,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6520DB4025BE60D600A4A1B5 /* 【投稿】Xcode 创建静态库和动态库 - CocoaChina_一站式开发者成长社区.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "【投稿】Xcode 创建静态库和动态库 - CocoaChina_一站式开发者成长社区.pdf"; sourceTree = "<group>"; };
 		65DB560025BACCE9007BDCC8 /* libStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DB561125BACDF7007BDCC8 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
 		65DB561225BACDF7007BDCC8 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		65DB560225BACCE9007BDCC8 /* StaticLib */ = {
 			isa = PBXGroup;
 			children = (
+				6520DB4025BE60D600A4A1B5 /* 【投稿】Xcode 创建静态库和动态库 - CocoaChina_一站式开发者成长社区.pdf */,
 				65DB566725BE5471007BDCC8 /* iOS打包静态库（完整篇） - Sky109 - 博客园.pdf */,
 				65DB566625BE5429007BDCC8 /* 绝对手把手教你如何将一整个xcode工程打包成静态库 - 简书.pdf */,
 				65DB561925BAD14A007BDCC8 /* Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf */,
