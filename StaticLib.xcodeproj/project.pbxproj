@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		65DB561325BACDF8007BDCC8 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DB561225BACDF7007BDCC8 /* NSString+Hash.m */; };
 		65DB561725BACE7B007BDCC8 /* NSString+Hash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65DB561125BACDF7007BDCC8 /* NSString+Hash.h */; };
+		65DB566A25BE5560007BDCC8 /* StaticLibTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DB566925BE5560007BDCC8 /* StaticLibTool.m */; };
+		65DB566D25BE55D0007BDCC8 /* StaticLibTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65DB566825BE5560007BDCC8 /* StaticLibTool.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +20,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				65DB566D25BE55D0007BDCC8 /* StaticLibTool.h in CopyFiles */,
 				65DB561725BACE7B007BDCC8 /* NSString+Hash.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,6 +32,10 @@
 		65DB561125BACDF7007BDCC8 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
 		65DB561225BACDF7007BDCC8 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		65DB561925BAD14A007BDCC8 /* Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf"; sourceTree = "<group>"; };
+		65DB566625BE5429007BDCC8 /* 绝对手把手教你如何将一整个xcode工程打包成静态库 - 简书.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绝对手把手教你如何将一整个xcode工程打包成静态库 - 简书.pdf"; sourceTree = "<group>"; };
+		65DB566725BE5471007BDCC8 /* iOS打包静态库（完整篇） - Sky109 - 博客园.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS打包静态库（完整篇） - Sky109 - 博客园.pdf"; sourceTree = "<group>"; };
+		65DB566825BE5560007BDCC8 /* StaticLibTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibTool.h; sourceTree = "<group>"; };
+		65DB566925BE5560007BDCC8 /* StaticLibTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +68,13 @@
 		65DB560225BACCE9007BDCC8 /* StaticLib */ = {
 			isa = PBXGroup;
 			children = (
+				65DB566725BE5471007BDCC8 /* iOS打包静态库（完整篇） - Sky109 - 博客园.pdf */,
+				65DB566625BE5429007BDCC8 /* 绝对手把手教你如何将一整个xcode工程打包成静态库 - 简书.pdf */,
 				65DB561925BAD14A007BDCC8 /* Xcode7中创建静态库 - CocoaChina_一站式开发者成长社区.pdf */,
 				65DB561125BACDF7007BDCC8 /* NSString+Hash.h */,
 				65DB561225BACDF7007BDCC8 /* NSString+Hash.m */,
+				65DB566825BE5560007BDCC8 /* StaticLibTool.h */,
+				65DB566925BE5560007BDCC8 /* StaticLibTool.m */,
 			);
 			path = StaticLib;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DB561325BACDF8007BDCC8 /* NSString+Hash.m in Sources */,
+				65DB566A25BE5560007BDCC8 /* StaticLibTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
